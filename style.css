@@ -41,7 +41,7 @@
     height: 60px;
     margin-top: 10px;
     text-decoration: none;
-    
+
     border-radius: 15%;
     color: white;
   }
@@ -82,7 +82,18 @@
     height: auto;
     background-size: cover;
   }
+  .workContainer{
+    width: 100%;
+    height: auto;
+    background-color: green;
+  }
+  .work1,.work2{
+    width:600px;
+    height: 400px;
+    background-color: pink;
+    display: inline-block;
 
+  }
 @media screen and (max-width: 700px){
   nav{
     display: none;
